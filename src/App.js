@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 const App = () => {
 
   const [counter,setCounter] = useState(0); 
+  
 
   useEffect(()=> {
     alert('You have changes the counter to ' + counter);
